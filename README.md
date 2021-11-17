@@ -1,3 +1,3 @@
 # Simple-Anomaly-Detector
 
-Project of a simple anomaly detector - an interactive system that simulates flight mode. Written in c++. This project implements a variety of design patterns, uses various data structures, the network is based on client-server communication and implementation of the minimal enclosing circle problem.
+●	Simple anomaly detector project - an interactive system that simulates flight mode based mostly upon on an implementation of find the regression line from a collection of points and the minimal enclosing circle problem. The project is written in C, implements different design patterns and communication with server.
