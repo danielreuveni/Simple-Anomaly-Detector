@@ -63,10 +63,9 @@ void Server::start(ClientHandler& ch) throw (const char*) {
             if (cliend_fd < 0){
                 throw "connection error"
             }
-			if (cliend_fd > 0){
-				ch.handle(cliend_fd);
-				close(cliend_fd);
-			}
+
+		close(cliend_fd);
+
 		    }
 	  });
 }
